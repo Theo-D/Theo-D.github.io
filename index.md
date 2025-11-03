@@ -8,7 +8,7 @@ title: Zafira Solidaire's Website
 <!-- =========================== -->
 
 <div align="center">
-  <img src="./assets/zafira_logo.png" alt="Project Cover" width="80%" style="border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.15);"/>
+  <img src="./assets/zafira_logo.jpg" alt="Project Cover" width="80%" style="border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.15);"/>
 
   <h1>🌟 Zafira Solidaire's Website 🌟</h1>
   <em>This project was born from the desire to  provide Zafira Solidaire a website to act as both a showcase and a technical hub.</em>
