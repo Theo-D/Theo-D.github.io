@@ -10,8 +10,8 @@ title: Home
 <div align="center">
   <img src="assets/cover-image.png" alt="Project Cover" width="80%" style="border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.15);"/>
   
-  <h1>🌟 Project Name 🌟</h1>
-  <em>A short and catchy one-line description of your project.</em>
+  <h1>🌟 Zafira Solidaire's Website 🌟</h1>
+  <em>This project was born from the desire to  provide Zafira Solidaire a website to act as both a showcase and a technical hub.</em>
 
   <p style="margin-top: 1em;">
     <a href="#features">Features</a> •
@@ -30,42 +30,44 @@ title: Home
 
 ## 🧩 Features
 
-### ✨ Feature 1 — *Cool Functionality*
+### ✨ Feature 1 — *Login using JWT and refresh tokens*
 <div align="center">
-  <img src="assets/feature1.gif" alt="Feature 1 Demo" width="70%" style="border-radius:8px;"/>
+  <img src="assets/feature1.gif" alt="Login form screenshot" width="70%" style="border-radius:8px;"/>
 </div>
 
 **Description:**  
-A short paragraph describing what this feature does and why it’s useful.
+When a user logs in, they are issued both a **JWT** — a token containing their identity and role — and a **refresh token**. This setup allows for seamless navigation without requiring reauthentication every 30 minutes, while still ensuring secure, role-based access throughout the application.
 
 ---
 
-### ⚡ Feature 2 — *Another Highlight*
+### ⚡ Feature 2 — *Admin dashboard*
 <div align="center">
-  <img src="assets/feature2.png" alt="Feature 2 Screenshot" width="70%" style="border-radius:8px;"/>
+  <img src="assets/feature2.png" alt="Admin dashboard Screenshot" width="70%" style="border-radius:8px;"/>
 </div>
 
 **Description:**  
-Briefly explain the impact of this feature.
+The **Admin Dashboard** enables the website administrator to perform CRUD operations on the business entities managed by the Spring Boot backend — including Users, Events, Clothing, and Partners. It also provides access to **Strapi**, an external service used to create and manage blog posts.
 
 ---
 
-### 🚀 Feature 3 — *Something Awesome*
+### 🚀 Feature 3 — *Metrics tracking*
 <div align="center">
   <img src="assets/feature3.png" alt="Feature 3 Screenshot" width="70%" style="border-radius:8px;"/>
 </div>
 
 **Description:**  
-Explain how this improves the user experience.
+As an association, **Zafira Solidaire** needed a way to showcase its impact. This was achieved by adding two dynamic counters to the website’s front page, allowing visitors to see in real time both the number of people assisted by the association and the total quantity of professional clothing delivered and processed for beneficiaries.
 
 ---
 
 ## 🧠 About
 
 ### 💡 Inspiration & Story
-> “The idea for *Project Name* came from our passion for [topic]. We built this to solve [problem] and make [process] more enjoyable.”
+Born from the realization that people from different backgrounds are not equally equipped to face the hiring process, **Zafira Solidaire** was created to help alleviate some of the challenges these individuals encounter.
 
-Created as a **Portfolio Project for [Holberton School](https://www.holbertonschool.com/)**.
+To achieve this, the association provides **professional clothing**, **image consulting**, **photo shoots**, and other services designed to ease access to the job market for those who need it — primarily young adults aged 16 to 25.
+
+To fulfill its mission, it soon became clear that the association needed a website to showcase its achievements to potential partners and beneficiaries, enable members to book appointments and register for workshops, and support the organization in managing its activities.
 
 ---
 
@@ -73,17 +75,17 @@ Created as a **Portfolio Project for [Holberton School](https://www.holbertonsch
 
 | Name | GitHub | LinkedIn |
 |------|---------|----------|
-| Your Name | [GitHub](https://github.com/yourusername) | [LinkedIn](https://linkedin.com/in/yourprofile) |
-| Teammate Name | [GitHub](https://github.com/teammate) | [LinkedIn](https://linkedin.com/in/teammate) |
+| Théo DESSAIGNE| [GitHub](https://github.com/Theo-D) | [LinkedIn](www.linkedin.com/in/théo-dessaigne-bb0483373) |
+| Ancelin Chevallier| [GitHub](https://github.com/Ancelin-31) | To be Done |
 
 ---
 
 ### 🛠️ Tech Stack
 
-- **Frontend:** React, TypeScript  
+- **Frontend:** React
 - **Backend:** Spring Boot  
-- **Database:** PostgreSQL  
-- **Deployment:** Render / Netlify
+- **Database:** MySQL
+- **External Service:** Strapi 
 
 ---
 
