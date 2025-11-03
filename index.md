@@ -1,5 +1,7 @@
-# zafira-solidaire.github.io
-
+---
+layout: default
+title: Home
+---
 <!-- =========================== -->
 <!-- 0. INTRO SECTION -->
 <!-- =========================== -->
