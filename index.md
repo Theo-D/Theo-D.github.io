@@ -8,8 +8,8 @@ title: Zafira Solidaire's Website
 <!-- =========================== -->
 
 <div align="center">
-  <img src="assets/cover-image.png" alt="Project Cover" width="80%" style="border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.15);"/>
-  
+  <img src="./assets/zafira_logo.png" alt="Project Cover" width="80%" style="border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.15);"/>
+
   <h1>🌟 Zafira Solidaire's Website 🌟</h1>
   <em>This project was born from the desire to  provide Zafira Solidaire a website to act as both a showcase and a technical hub.</em>
 
@@ -35,7 +35,7 @@ title: Zafira Solidaire's Website
   <img src="assets/feature1.gif" alt="Login form screenshot" width="70%" style="border-radius:8px;"/>
 </div>
 
-**Description:**  
+**Description:**
 When a user logs in, they are issued both a **JWT** — a token containing their identity and role — and a **refresh token**. This setup allows for seamless navigation without requiring reauthentication every 30 minutes, while still ensuring secure, role-based access throughout the application.
 
 ---
@@ -45,7 +45,7 @@ When a user logs in, they are issued both a **JWT** — a token containing their
   <img src="assets/feature2.png" alt="Admin dashboard Screenshot" width="70%" style="border-radius:8px;"/>
 </div>
 
-**Description:**  
+**Description:**
 The **Admin Dashboard** enables the website administrator to perform CRUD operations on the business entities managed by the Spring Boot backend — including Users, Events, Clothing, and Partners. It also provides access to **Strapi**, an external service used to create and manage blog posts.
 
 ---
@@ -55,7 +55,7 @@ The **Admin Dashboard** enables the website administrator to perform CRUD operat
   <img src="assets/feature3.png" alt="Feature 3 Screenshot" width="70%" style="border-radius:8px;"/>
 </div>
 
-**Description:**  
+**Description:**
 As an association, **Zafira Solidaire** needed a way to showcase its impact. This was achieved by adding two dynamic counters to the website’s front page, allowing visitors to see in real time both the number of people assisted by the association and the total quantity of professional clothing delivered and processed for beneficiaries.
 
 ---
@@ -83,9 +83,9 @@ To fulfill its mission, it soon became clear that the association needed a websi
 ### 🛠️ Tech Stack
 
 - **Frontend:** React
-- **Backend:** Spring Boot  
+- **Backend:** Spring Boot
 - **Database:** MySQL
-- **External Service:** Strapi 
+- **External Service:** Strapi
 
 ---
 
