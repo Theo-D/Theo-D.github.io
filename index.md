@@ -31,7 +31,7 @@ title: Zafira Solidaire's Website
 ## 🧩 Features
 
 ### ✨ Feature 1 — *Login using JWT and refresh tokens*
-<div style="display:flex" align="center">
+<div style="display:flex">
   <div style="flex">
     <img src="assets/login_screenshot.png" alt="Login form screenshot" width="70%" style="border-radius:8px;"/>
   </div>
