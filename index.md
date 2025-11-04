@@ -109,16 +109,18 @@ As an association, **Zafira Solidaire** needed a way to showcase its impact. Thi
 
 ## 🧠 About {#about}
 
-<div class="image-container" align="center">
-  <img class="zoom-image" src="assets/homepage_screenshot.png" alt="A screenshot of Zafira Solidaire frontpage"/>
-</div>
-
 ### 💡 Inspiration & Story
 Born from the realization that people from different backgrounds are not equally equipped to face the hiring process, **Zafira Solidaire** was created to help alleviate some of the challenges these individuals encounter.
 
 To achieve this, the association provides **professional clothing**, **image consulting**, **photo shoots**, and other services designed to ease access to the job market for those who need it — primarily young adults aged 16 to 25.
 
 To fulfill its mission, it soon became clear that the association needed a website to showcase its achievements to potential partners and beneficiaries, enable members to book appointments and register for workshops, and support the organization in managing its activities.
+
+### 👀 Homepage overview
+
+<div class="image-container" align="center">
+  <img class="zoom-image" src="assets/homepage_screenshot.png" alt="A screenshot of Zafira Solidaire frontpage"/>
+</div>
 
 ---
 
