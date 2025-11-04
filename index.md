@@ -78,7 +78,7 @@ To fulfill its mission, it soon became clear that the association needed a websi
 | Name | GitHub | LinkedIn |
 |------|---------|----------|
 | Théo DESSAIGNE| [GitHub](https://github.com/Theo-D) | [LinkedIn](www.linkedin.com/in/théo-dessaigne-bb0483373) |
-| Ancelin Chevallier| [GitHub](https://github.com/Ancelin-31) | To be Done |
+| Ancelin CHEVALLIER| [GitHub](https://github.com/Ancelin-31) | To be Done |
 
 ---
 
