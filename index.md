@@ -32,9 +32,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const rect = zoomImg.getBoundingClientRect();
     const x = ((e.clientX - rect.left) / rect.width) * 100;
     let y = ((e.clientY - rect.top) / rect.height) * 100;
-    //const yOffset = 15;
+    const yOffset = -15;
     
-    //y = Math.max(0, Math.min(100, y + yOffset));
+    y = Math.max(0, Math.min(100, y + yOffset));
     
     zoomImg.style.transformOrigin = `${x}% ${y}%`;
     zoomImg.style.transform = 'scale(3)';
