@@ -71,6 +71,10 @@ As an association, **Zafira Solidaire** needed a way to showcase its impact. Thi
 
 ## 🧠 About {#about}
 
+<div align="center">
+  <img src="assets/homepage_screenshot.png" alt="Clothing and serviced users counter Screenshot" width="70%" style="border-radius:8px;"/>
+</div>
+
 ### 💡 Inspiration & Story
 Born from the realization that people from different backgrounds are not equally equipped to face the hiring process, **Zafira Solidaire** was created to help alleviate some of the challenges these individuals encounter.
 
