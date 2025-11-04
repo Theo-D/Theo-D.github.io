@@ -2,13 +2,20 @@
 layout: default
 title: Zafira Solidaire's Website
 ---
+<style>
+@media screen and (min-width: 64em) {
+  .main-content {
+    max-width: 80rem !important;
+  }
+}
+</style>
 
 <!-- =========================== -->
 <!-- 0. INTRO SECTION -->
 <!-- =========================== -->
 
 <div align="center">
-  <img src="./assets/zafira_logo.jpg" alt="Project Cover" width="50%" style="border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.15);"/>
+  <img src="./assets/zafira_logo.jpg" alt="Project Cover" width="80%" style="border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.15);"/>
 
   <h1>🌟 Zafira Solidaire's Website 🌟</h1>
   <em>This project was born from the desire to  provide Zafira Solidaire a website to act as both a showcase and a technical hub.</em>
@@ -18,6 +25,12 @@ title: Zafira Solidaire's Website
     <a href="#about">About</a> •
     <a href="#contributors">Contributors</a>
   </p>
+
+  <p style="margin-top: 1em;">
+    <a href="https://your-deployed-app-url.com" target="_blank">
+      <img src="https://img.shields.io/badge/🚀_View_Deployed_App-Click_Here-blue?style=for-the-badge" alt="View Deployed App"/>
+    </a>
+  </p>
 </div>
 
 ---
@@ -25,15 +38,8 @@ title: Zafira Solidaire's Website
 ## 🧩 Features
 
 ### ✨ Feature 1 — *Login using JWT and refresh tokens*
-<div style="display: flex; justify-content: space-around; align-items: center; gap: 8px;">
-  <div style="flex: 1; text-align: center;">
-    <img src="assets/register_screenshot.png" alt="Register form screenshot"
-         style="border-radius: 8px;"/>
-  </div>
-  <div style="flex: 1; text-align: center;">
-    <img src="assets/login_screenshot.png" alt="Login form screenshot"
-         style="border-radius: 8px;"/>
-  </div>
+<div align="center">
+  <img src="assets/feature1.gif" alt="Login form screenshot" width="70%" style="border-radius:8px;"/>
 </div>
 
 **Description:**
@@ -43,9 +49,7 @@ When a user logs in, they are issued both a **JWT** — a token containing their
 
 ### ⚡ Feature 2 — *Admin dashboard*
 <div align="center">
-  <video width="720" controls>
-    <source alt="admin dashboard video" src="https://github.com/Theo-D/Theo-D.github.io/raw/refs/heads/main/assets/dashboard_presentation.mp4">
-  </video>
+  <img src="assets/feature2.png" alt="Admin dashboard Screenshot" width="70%" style="border-radius:8px;"/>
 </div>
 
 **Description:**
@@ -79,7 +83,7 @@ To fulfill its mission, it soon became clear that the association needed a websi
 | Name | GitHub | LinkedIn |
 |------|---------|----------|
 | Théo DESSAIGNE| [GitHub](https://github.com/Theo-D) | [LinkedIn](www.linkedin.com/in/théo-dessaigne-bb0483373) |
-| Ancelin CHEVALLIER| [GitHub](https://github.com/Ancelin-31) | To be Done |
+| Ancelin Chevallier| [GitHub](https://github.com/Ancelin-31) | To be Done |
 
 ---
 
