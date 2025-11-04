@@ -29,16 +29,14 @@ document.addEventListener('DOMContentLoaded', () => {
   const zoomImg = document.querySelector('.zoom-image');
 
   zoomImg.addEventListener('mousemove', (e) => {
-    const rect = zoomImg.getBoundingClientRect();
-    const x = ((e.clientX - rect.left) / rect.width) * 100;
-    let y = ((e.clientY - rect.top) / rect.height) * 100;
-    const yOffset = -15;
-    
-    y = Math.max(0, Math.min(100, y + yOffset));
-    
-    zoomImg.style.transformOrigin = `${x}% ${y}%`;
-    zoomImg.style.transform = 'scale(3)';
-  });
+  const rect = zoomImg.getBoundingClientRect();
+  const x = ((e.clientX - rect.left) / rect.width) * 100;
+  const factor = 0.85; // shift focus upward
+  let y = ((e.clientY - rect.top) / rect.height) * 100 * factor;
+
+  zoomImg.style.transformOrigin = `${x}% ${y}%`;
+  zoomImg.style.transform = 'scale(3)';
+});
 
   zoomImg.addEventListener('mouseleave', () => {
     zoomImg.style.transformOrigin = 'center center';
