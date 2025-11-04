@@ -33,7 +33,7 @@ title: Zafira Solidaire's Website
 ### ✨ Feature 1 — *Login using JWT and refresh tokens*
 <div align="center">
   <video width="320" controls loop="" muted="" autoplay="">
-    <source src="https://github.com/Theo-D/Theo-D.github.io/blob/main/assets/dashboard_presentation.mp4">
+    <source src="https://github.com/Theo-D/Theo-D.github.io/raw/refs/heads/main/assets/dashboard_presentation.mp4">
   </video>
 </div>
 
