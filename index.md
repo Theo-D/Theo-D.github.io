@@ -42,7 +42,7 @@ When a user logs in, they are issued both a **JWT** — a token containing their
 
 ### ⚡ Feature 2 — *Admin dashboard*
 <div align="center">
-  <video controls loop="" muted="" autoplay="">
+  <video width="640" controls loop="" muted="" autoplay="">
     <source alt="admin dashboard video" src="https://github.com/Theo-D/Theo-D.github.io/raw/refs/heads/main/assets/dashboard_presentation.mp4">
   </video>
 </div>
