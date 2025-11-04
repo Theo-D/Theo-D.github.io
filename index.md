@@ -18,12 +18,6 @@ title: Zafira Solidaire's Website
     <a href="#about">About</a> •
     <a href="#contributors">Contributors</a>
   </p>
-
-  <p style="margin-top: 1em;">
-    <a href="https://your-deployed-app-url.com" target="_blank">
-      <img src="https://img.shields.io/badge/🚀_View_Deployed_App-Click_Here-blue?style=for-the-badge" alt="View Deployed App"/>
-    </a>
-  </p>
 </div>
 
 ---
@@ -33,11 +27,11 @@ title: Zafira Solidaire's Website
 ### ✨ Feature 1 — *Login using JWT and refresh tokens*
 <div style="display: flex; justify-content: space-around; align-items: center;">
   <div style="flex: 1; text-align: center;">
-    <img src="assets/login_screenshot.png" alt="Login form screenshot"
+    <img src="assets/register_screenshot.png" alt="Register form screenshot"
          style="border-radius: 8px;"/>
   </div>
   <div style="flex: 1; text-align: center;">
-    <img src="assets/register_screenshot.png" alt="Register form screenshot"
+    <img src="assets/login_screenshot.png" alt="Login form screenshot"
          style="border-radius: 8px;"/>
   </div>
 </div>
