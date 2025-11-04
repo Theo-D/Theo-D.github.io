@@ -8,6 +8,23 @@ title: Zafira Solidaire's Website
     max-width: 80rem !important;
   }
 }
+
+.image-container {
+  display: inline-block;
+  overflow: hidden; /* hides the zoomed overflow */
+  border-radius: 8px;
+}
+
+.zoom-image {
+  width: 70%;
+  border-radius: 8px;
+  transition: transform 0.4s ease; /* smooth zoom animation */
+}
+
+.zoom-image:hover {
+  transform: scale(1.1); /* increase scale for zoom effect */
+  cursor: zoom-in; /* optional: shows zoom cursor */
+}
 </style>
 
 <!-- =========================== -->
@@ -71,8 +88,8 @@ As an association, **Zafira Solidaire** needed a way to showcase its impact. Thi
 
 ## 🧠 About {#about}
 
-<div align="center">
-  <img src="assets/homepage_screenshot.png" alt="Clothing and serviced users counter Screenshot" width="70%" style="border-radius:8px;"/>
+<div class="image-container" align="center">
+  <img class="zoom-image" src="assets/homepage_screenshot.png" alt="Clothing and serviced users counter Screenshot" width="70%" style="border-radius:8px;"/>
 </div>
 
 ### 💡 Inspiration & Story
