@@ -68,7 +68,7 @@ The **Admin Dashboard** enables the website administrator to perform CRUD operat
 
 ### 🚀 Feature 3 — *Metrics tracking*
 <div align="center">
-  <img src="" alt="Feature 3 Screenshot" width="70%" style="border-radius:8px;"/>
+  <img src="assets/counter_screenshot.png" alt="Clothing and serviced users counter Screenshot" width="70%" style="border-radius:8px;"/>
 </div>
 
 **Description:**
