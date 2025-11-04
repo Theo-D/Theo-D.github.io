@@ -89,7 +89,7 @@ As an association, **Zafira Solidaire** needed a way to showcase its impact. Thi
 ## 🧠 About {#about}
 
 <div class="image-container" align="center">
-  <img class="zoom-image" src="assets/homepage_screenshot.png" alt="A screenshot of Zafira Solidaire frontpage""/>
+  <img class="zoom-image" src="assets/homepage_screenshot.png" alt="A screenshot of Zafira Solidaire frontpage"/>
 </div>
 
 ### 💡 Inspiration & Story
