@@ -8,26 +8,38 @@ title: Zafira Solidaire's Website
     max-width: 80rem !important;
   }
 }
-
 .image-container {
   display: inline-block;
-  overflow: hidden; /* hides the zoomed overflow */
+  overflow: hidden;
   border-radius: 8px;
+  position: relative;
 }
 
 .zoom-image {
-  width: 33%;
+  width: 70%;
   border-radius: 8px;
-  transition: transform 0.4s ease; /* smooth zoom animation */
+  transition: transform 0.3s ease;
   transform-origin: center center;
-}
-
-.zoom-image:hover {
-  transform: scale(3); /* increase scale for zoom effect */
-  cursor: zoom-in; /* optional: shows zoom cursor */
-  transform-origin: center center;
+  cursor: zoom-in;
 }
 </style>
+
+<script>
+const zoomImg = document.querySelector('.zoom-image');
+
+zoomImg.addEventListener('mousemove', (e) => {
+  const rect = zoomImg.getBoundingClientRect();
+  const x = ((e.clientX - rect.left) / rect.width) * 100;
+  const y = ((e.clientY - rect.top) / rect.height) * 100;
+  zoomImg.style.transformOrigin = `${x}% ${y}%`;
+  zoomImg.style.transform = 'scale(2)'; // Adjust zoom level here
+});
+
+zoomImg.addEventListener('mouseleave', () => {
+  zoomImg.style.transformOrigin = 'center center';
+  zoomImg.style.transform = 'scale(1)';
+});
+</script>
 
 <!-- =========================== -->
 <!-- 0. INTRO SECTION -->
