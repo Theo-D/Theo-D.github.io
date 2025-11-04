@@ -25,21 +25,24 @@ title: Zafira Solidaire's Website
 </style>
 
 <script>
-const zoomImg = document.querySelector('.zoom-image');
+document.addEventListener('DOMContentLoaded', () => {
+  const zoomImg = document.querySelector('.zoom-image');
 
-zoomImg.addEventListener('mousemove', (e) => {
-  const rect = zoomImg.getBoundingClientRect();
-  const x = ((e.clientX - rect.left) / rect.width) * 100;
-  const y = ((e.clientY - rect.top) / rect.height) * 100;
-  zoomImg.style.transformOrigin = `${x}% ${y}%`;
-  zoomImg.style.transform = 'scale(2)'; // Adjust zoom level here
-});
+  zoomImg.addEventListener('mousemove', (e) => {
+    const rect = zoomImg.getBoundingClientRect();
+    const x = ((e.clientX - rect.left) / rect.width) * 100;
+    const y = ((e.clientY - rect.top) / rect.height) * 100;
+    zoomImg.style.transformOrigin = `${x}% ${y}%`;
+    zoomImg.style.transform = 'scale(2)'; // Adjust zoom level here
+  });
 
-zoomImg.addEventListener('mouseleave', () => {
-  zoomImg.style.transformOrigin = 'center center';
-  zoomImg.style.transform = 'scale(1)';
+  zoomImg.addEventListener('mouseleave', () => {
+    zoomImg.style.transformOrigin = 'center center';
+    zoomImg.style.transform = 'scale(1)';
+  });
 });
 </script>
+
 
 <!-- =========================== -->
 <!-- 0. INTRO SECTION -->
