@@ -32,9 +32,7 @@ title: Zafira Solidaire's Website
 
 ### ✨ Feature 1 — *Login using JWT and refresh tokens*
 <div align="center">
-  <video controls loop="" muted="" autoplay="">
-    <source src="https://github.com/Theo-D/Theo-D.github.io/raw/refs/heads/main/assets/dashboard_presentation.mp4">
-  </video>
+  <img src="assets/feature1.gif" alt="Login form screenshot" width="70%" style="border-radius:8px;"/>
 </div>
 
 **Description:**
@@ -44,7 +42,9 @@ When a user logs in, they are issued both a **JWT** — a token containing their
 
 ### ⚡ Feature 2 — *Admin dashboard*
 <div align="center">
-  <img src="assets/feature2.png" alt="Admin dashboard Screenshot" width="70%" style="border-radius:8px;"/>
+  <video controls loop="" muted="" autoplay="">
+    <source alt="admin dashboard video" src="https://github.com/Theo-D/Theo-D.github.io/raw/refs/heads/main/assets/dashboard_presentation.mp4">
+  </video>
 </div>
 
 **Description:**
