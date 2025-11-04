@@ -16,7 +16,7 @@ title: Zafira Solidaire's Website
 }
 
 .zoom-image {
-  width: 70%;
+  width: 33%;
   border-radius: 8px;
   transition: transform 0.3s ease;
   transform-origin: center center;
@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const x = ((e.clientX - rect.left) / rect.width) * 100;
     const y = ((e.clientY - rect.top) / rect.height) * 100;
     zoomImg.style.transformOrigin = `${x}% ${y}%`;
-    zoomImg.style.transform = 'scale(2)'; // Adjust zoom level here
+    zoomImg.style.transform = 'scale(3)'; // Adjust zoom level here
   });
 
   zoomImg.addEventListener('mouseleave', () => {
