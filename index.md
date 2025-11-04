@@ -34,11 +34,11 @@ title: Zafira Solidaire's Website
 <div style="display: flex; justify-content: space-around; align-items: center;">
   <div style="flex: 1; text-align: center;">
     <img src="assets/login_screenshot.png" alt="Login form screenshot"
-         style="width: 70%; border-radius: 8px;"/>
+         style="border-radius: 8px;"/>
   </div>
   <div style="flex: 1; text-align: center;">
     <img src="assets/register_screenshot.png" alt="Register form screenshot"
-         style="width: 70%; border-radius: 8px;"/>
+         style="border-radius: 8px;"/>
   </div>
 </div>
 
