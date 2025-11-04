@@ -19,11 +19,13 @@ title: Zafira Solidaire's Website
   width: 50%;
   border-radius: 8px;
   transition: transform 0.4s ease; /* smooth zoom animation */
+  transform-origin: center center;
 }
 
 .zoom-image:hover {
   transform: scale(2); /* increase scale for zoom effect */
   cursor: zoom-in; /* optional: shows zoom cursor */
+  transform-origin: center center;
 }
 </style>
 
