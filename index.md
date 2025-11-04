@@ -22,7 +22,7 @@ title: Zafira Solidaire's Website
 }
 
 .zoom-image:hover {
-  transform: scale(1.1); /* increase scale for zoom effect */
+  transform: scale(2); /* increase scale for zoom effect */
   cursor: zoom-in; /* optional: shows zoom cursor */
 }
 </style>
