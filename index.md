@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
   zoomImg.addEventListener('mousemove', (e) => {
   const rect = zoomImg.getBoundingClientRect();
   const x = ((e.clientX - rect.left) / rect.width) * 100;
-  const factor = 1.2; // shift focus upward
+  const factor = 1;
   let y = ((e.clientY - rect.top) / rect.height) * 100 * factor;
 
   zoomImg.style.transformOrigin = `${x}% ${y}%`;
