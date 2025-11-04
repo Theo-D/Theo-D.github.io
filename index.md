@@ -38,7 +38,7 @@ title: Zafira Solidaire's Website
 ## 🧩 Features
 
 ### ✨ Feature 1 — *Login using JWT and refresh tokens*
-<div style="display: flex; justify-content: space-around; align-items: center;">
+<div style="display: flex; justify-content: space-around; align-items: center; gap: 8px;">
   <div style="flex: 1; text-align: center;">
     <img src="assets/register_screenshot.png" alt="Register form screenshot"
          style="border-radius: 8px;"/>
@@ -68,7 +68,7 @@ The **Admin Dashboard** enables the website administrator to perform CRUD operat
 
 ### 🚀 Feature 3 — *Metrics tracking*
 <div align="center">
-  <img src="assets/feature3.png" alt="Feature 3 Screenshot" width="70%" style="border-radius:8px;"/>
+  <img src="" alt="Feature 3 Screenshot" width="70%" style="border-radius:8px;"/>
 </div>
 
 **Description:**
@@ -92,7 +92,7 @@ To fulfill its mission, it soon became clear that the association needed a websi
 | Name | GitHub | LinkedIn |
 |------|---------|----------|
 | Théo DESSAIGNE| [GitHub](https://github.com/Theo-D) | [LinkedIn](www.linkedin.com/in/théo-dessaigne-bb0483373) |
-| Ancelin Chevallier| [GitHub](https://github.com/Ancelin-31) | To be Done |
+| Ancelin CHEVALLIER| [GitHub](https://github.com/Ancelin-31) | To be Done |
 
 ---
 
