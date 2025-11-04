@@ -16,7 +16,7 @@ title: Zafira Solidaire's Website
 }
 
 .zoom-image {
-  width: 70%;
+  width: 50%;
   border-radius: 8px;
   transition: transform 0.4s ease; /* smooth zoom animation */
 }
@@ -89,7 +89,7 @@ As an association, **Zafira Solidaire** needed a way to showcase its impact. Thi
 ## 🧠 About {#about}
 
 <div class="image-container" align="center">
-  <img class="zoom-image" src="assets/homepage_screenshot.png" alt="Clothing and serviced users counter Screenshot" width="70%" style="border-radius:8px;"/>
+  <img class="zoom-image" src="assets/homepage_screenshot.png" alt="A screenshot of Zafira Solidaire frontpage""/>
 </div>
 
 ### 💡 Inspiration & Story
