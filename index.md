@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
   zoomImg.addEventListener('mousemove', (e) => {
     const rect = zoomImg.getBoundingClientRect();
     const x = ((e.clientX - rect.left) / rect.width) * 100;
-    const y = ((e.clientY - rect.top) / rect.height) * 100;
+    let y = ((e.clientY - rect.top) / rect.height) * 100;
     const yOffset = 15;
     
     y = Math.max(0, Math.min(100, y + yOffset));
