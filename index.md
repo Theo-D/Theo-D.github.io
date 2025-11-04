@@ -28,7 +28,7 @@ title: Zafira Solidaire's Website
 
 ---
 
-## 🧩 Features
+## 🧩 Features {#features}
 
 ### ✨ Feature 1 — *Login using JWT and refresh tokens*
 <div style="display: flex; justify-content: space-around; align-items: center; gap: 8px;">
@@ -69,7 +69,7 @@ As an association, **Zafira Solidaire** needed a way to showcase its impact. Thi
 
 ---
 
-## 🧠 About
+## 🧠 About {#about}
 
 ### 💡 Inspiration & Story
 Born from the realization that people from different backgrounds are not equally equipped to face the hiring process, **Zafira Solidaire** was created to help alleviate some of the challenges these individuals encounter.
