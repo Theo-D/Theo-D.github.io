@@ -15,7 +15,7 @@ title: Zafira Solidaire's Website
 <!-- =========================== -->
 
 <div align="center">
-  <img src="./assets/zafira_logo.jpg" alt="Project Cover" width="80%" style="border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.15);"/>
+  <img src="./assets/zafira_logo.jpg" alt="Project Cover" width="50%" style="border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.15);"/>
 
   <h1>🌟 Zafira Solidaire's Website 🌟</h1>
   <em>This project was born from the desire to  provide Zafira Solidaire a website to act as both a showcase and a technical hub.</em>
@@ -38,8 +38,15 @@ title: Zafira Solidaire's Website
 ## 🧩 Features
 
 ### ✨ Feature 1 — *Login using JWT and refresh tokens*
-<div align="center">
-  <img src="assets/feature1.gif" alt="Login form screenshot" width="70%" style="border-radius:8px;"/>
+<div style="display: flex; justify-content: space-around; align-items: center;">
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/register_screenshot.png" alt="Register form screenshot"
+         style="border-radius: 8px;"/>
+  </div>
+  <div style="flex: 1; text-align: center;">
+    <img src="assets/login_screenshot.png" alt="Login form screenshot"
+         style="border-radius: 8px;"/>
+  </div>
 </div>
 
 **Description:**
@@ -49,7 +56,9 @@ When a user logs in, they are issued both a **JWT** — a token containing their
 
 ### ⚡ Feature 2 — *Admin dashboard*
 <div align="center">
-  <img src="assets/feature2.png" alt="Admin dashboard Screenshot" width="70%" style="border-radius:8px;"/>
+  <video width="720" controls>
+    <source alt="admin dashboard video" src="https://github.com/Theo-D/Theo-D.github.io/raw/refs/heads/main/assets/dashboard_presentation.mp4">
+  </video>
 </div>
 
 **Description:**
