@@ -16,20 +16,13 @@ title: Zafira Solidaire's Website
 
 <div align="center">
   <img src="./assets/zafira_logo.jpg" alt="Project Cover" width="50%" style="border-radius:10px; box-shadow:0 2px 8px rgba(0,0,0,0.15);"/>
-
-  <h1>🌟 Zafira Solidaire's Website 🌟</h1>
+  
   <em>This project was born from the desire to  provide Zafira Solidaire a website to act as both a showcase and a technical hub.</em>
 
   <p style="margin-top: 1em;">
     <a href="#features">Features</a> •
     <a href="#about">About</a> •
     <a href="#contributors">Contributors</a>
-  </p>
-
-  <p style="margin-top: 1em;">
-    <a href="https://your-deployed-app-url.com" target="_blank">
-      <img src="https://img.shields.io/badge/🚀_View_Deployed_App-Click_Here-blue?style=for-the-badge" alt="View Deployed App"/>
-    </a>
   </p>
 </div>
 
@@ -106,5 +99,5 @@ To fulfill its mission, it soon became clear that the association needed a websi
 ---
 
 <div align="center" style="margin-top: 2em;">
-  <p>💖 Thank you for checking out <strong>Project Name</strong>! 💖</p>
+  <p>Thank you for checking out project's landing page!</p>
 </div>
